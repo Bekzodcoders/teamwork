@@ -7,9 +7,8 @@ public class Main {
         while (true) {
             DisplayMenu();
             switch (new Scanner(System.in).nextInt()) {
-                case 1 -> Addwater.addwather();
+                case 1 -> Addwater.addwater();
                 case 2 -> Addwater.showWater();
-
             }
         }
     }
