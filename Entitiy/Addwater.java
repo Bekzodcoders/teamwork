@@ -16,6 +16,7 @@ public class Addwater {
             System.out.println("Suv qo'shildi");
         } else {
             System.out.println("Siz qo'shmoqchi bo'lgan suv bochkaga sig'maydi!!!");
+            System.out.println("Qayta kiriting");
         }
     }
 
