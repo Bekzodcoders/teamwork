@@ -27,4 +27,18 @@ public class Addwater {
         System.out.println((maxLimt - suv) + " litr hajmi bo'sh");
         System.out.println("-------------------------------------------");
     }
+
+    public static void pourWater() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Qancha suv to`kmoqchsiz :");
+        int n = scanner.nextInt();
+        if(n>suv){
+            System.out.println("ERROR! Buncha suv mavjud emas!");
+            pourWater();
+        }else{
+            suv = suv-n;
+            System.out.println("Suv to`kildi!");
+            System.out.println("==> SUCCES! <==");
+        }
+    }
 }
